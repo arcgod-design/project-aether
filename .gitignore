@@ -1,0 +1,69 @@
+# Build artifacts
+.pio/
+.pio/build/
+*.bin
+*.elf
+*.map
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+host/.env
+*.venv
+venv/
+env/
+
+# PlatformIO
+.pio/
+.pio/build/
+*.bin
+*.elf
+*.map
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets (never commit)
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.env
+host/.env
+*.pem
+*.key
+
+# Build
+build/
+dist/
+*.log
+
+# Node
+node_modules/
+package-lock.json
+yarn.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.suo
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
